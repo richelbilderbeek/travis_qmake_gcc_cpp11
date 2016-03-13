@@ -1,5 +1,5 @@
 sudo: true
 language: cpp
 compiler: gcc
-install: sudo apt-get install g++-4.9
+install: sudo apt-get install g++-4.8
 script: ./build.sh

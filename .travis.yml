@@ -2,5 +2,5 @@ language: cpp
 compiler: gcc
 addons:
   apt:
-    packages: g++-5
+    packages: g++-4.9
 script: ./build.sh

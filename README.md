@@ -1,4 +1,4 @@
-# travis_qmake_gcc_cpp98
+# travis_qmake_gcc_cpp11
 
 [![Travis CI logo](TravisCI.png)](https://travis-ci.org)
 

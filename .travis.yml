@@ -1,5 +1,8 @@
 sudo: true
 language: cpp
 compiler: gcc
-install: sudo apt-get install g++-4.8
+before_install:
+  - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
+  - sudo apt-get update -qq
+install: sudo apt-get install -qq g++-4.8
 script: ./build.sh

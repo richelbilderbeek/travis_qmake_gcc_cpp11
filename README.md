@@ -7,11 +7,13 @@
 The goal of this project is to have a clean Travis CI build, with specs:
  * Build system: `qmake`
  * C++ compiler: `gcc`
- * C++ version: `C++98`
+ * C++ version: `C++11`
  * Libraries: `STL` only
  * Code coverage: none
  * Source: one single file, `main.cpp`
 
 More complex builds:
- * Use the Boost libraries: [travis_qmake_gcc_cpp98_boost](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98_boost)
- * Code coverage: `codecov`: [travis_qmake_gcc_cpp98_gcov](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98_gcov)
+ * Use C++14: [travis_qmake_gcc_cpp14](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14)
+
+Less complex builds:
+ * Use C++98: [travis_qmake_gcc_cpp98](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98)

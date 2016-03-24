@@ -1,4 +1,7 @@
+# Project files
 SOURCES += main.cpp
+
+# Compile at high warning levels, a warning is an error
 QMAKE_CXXFLAGS += -Wall -Wextra -Weffc++ -Werror
 
 # C++11

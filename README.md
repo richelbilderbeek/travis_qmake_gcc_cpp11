@@ -7,6 +7,7 @@ develop|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc
 1|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11.svg?branch=1)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11)
 2|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11.svg?branch=2)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11)
 3|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11.svg?branch=3)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11)
+4|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11.svg?branch=4)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11)
 
 This GitHub is part of:
 

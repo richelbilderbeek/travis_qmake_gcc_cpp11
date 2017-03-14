@@ -10,6 +10,8 @@ before_install:
 install: 
   # C++11
   - sudo apt-get install -qq g++-5
+  - sudo unlink /usr/bin/gcc && sudo ln -s /usr/bin/gcc-5 /usr/bin/gcc
+  - sudo unlink /usr/bin/g++ && sudo ln -s /usr/bin/g++-5 /usr/bin/g++
 
 script: 
   - qmake

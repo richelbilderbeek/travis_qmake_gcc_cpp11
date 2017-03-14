@@ -8,6 +8,7 @@ develop|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc
 2|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11.svg?branch=2)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11)
 3|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11.svg?branch=3)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11)
 4|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11.svg?branch=4)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11)
+5|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11.svg?branch=5)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11)
 
 This GitHub is part of:
 
@@ -63,5 +64,5 @@ Use g++ in .pro file
 
 # 5
 
-Use Trusty 
+Use the g++ in Trusty.
 Use g++ in .pro file

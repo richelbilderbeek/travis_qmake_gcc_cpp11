@@ -1,17 +1,7 @@
 sudo: require
 language: cpp
 compiler: gcc
-
-before_install:
-  # C++11
-  - sudo add-apt-repository --yes ppa:ubuntu-toolchain-r/test
-  - sudo apt-get update -qq
-
-install: 
-  # C++11
-  - sudo apt-get install -qq g++-5
-  - sudo unlink /usr/bin/gcc && sudo ln -s /usr/bin/gcc-5 /usr/bin/gcc
-  - sudo unlink /usr/bin/g++ && sudo ln -s /usr/bin/g++-5 /usr/bin/g++
+dist: trusty
 
 script: 
   - qmake

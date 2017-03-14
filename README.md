@@ -38,3 +38,30 @@ More complex builds:
 
 Less complex builds:
  * Use C++98: [travis_qmake_gcc_cpp98](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98)
+
+## The branches
+
+# 1
+
+Use `apt-get` to install g++-5
+Use g++-5 in .pro file
+
+# 2
+
+Use `addons` to install g++-5
+Use g++-5 in .pro file
+
+# 3
+
+Use `addons` to install g++-5
+Use g++ in .pro file
+
+# 4
+
+Use `apt-get` to install g++-5
+Use g++ in .pro file
+
+# 5
+
+Use Trusty 
+Use g++ in .pro file

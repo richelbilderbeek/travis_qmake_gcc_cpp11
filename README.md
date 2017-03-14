@@ -28,6 +28,7 @@ More complex builds:
  * Add `Bio++`: [travis_qmake_gcc_cpp11_bpp](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11_bpp)
  * Add `Boost`: [travis_qmake_gcc_cpp11_boost](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11_boost)
  * Add `Boost.Test`: [travis_qmake_gcc_cpp11_boost_test](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11_boost_test)
+ * Add Coverity Scan: [travis_qmake_gcc_cpp11_coverity](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp11_coverity)
  * Add code coverage: [travis_qmake_gcc_cpp11_gcov](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp11_gcov)
  * Add `gprof`: [travis_qmake_gcc_cpp11_gprof](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp11_gprof)
  * Add OCLint: [travis_qmake_gcc_cpp11_oclint](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp11_oclint)
@@ -42,30 +43,30 @@ Less complex builds:
 
 ## The branches
 
-# `master`
+### `master`
+
+Same as #5, as this is the fastest one by far.
+
+### `develop`
 
 Same as #5.
 
-# `develop`
-
-Same as #5.
-
-# 1
+### 1
 
 Use `apt-get` to install g++-5. Use g++-5 in .pro file.
 
-# 2
+### 2
 
 Use `addons` to install g++-5. Use g++-5 in .pro file.
 
-# 3
+### 3
 
 Use `addons` to install g++-5. Use g++ in .pro file.
 
-# 4
+### 4
 
 Use `apt-get` to install g++-5. Use g++ in .pro file.
 
-# 5
+### 5
 
 Use the g++ in Trusty. Use g++ in .pro file.

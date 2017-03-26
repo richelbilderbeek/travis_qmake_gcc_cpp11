@@ -1,7 +1,12 @@
 #include <iostream>
 
-void f() noexcept {
+// C++11
+void f() noexcept 
+{
   std::cout << "Hello world\n";
 }
 
-int main() { f(); }
+int main() 
+{ 
+  f();
+}

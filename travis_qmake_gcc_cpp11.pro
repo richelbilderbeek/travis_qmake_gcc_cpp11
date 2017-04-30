@@ -1,4 +1,4 @@
-# Project files
+# Files
 SOURCES += main.cpp
 
 # Compile with high warning levels, a warning is an error

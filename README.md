@@ -43,33 +43,3 @@ More complex builds:
 Less complex builds:
 
  * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp98.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp98) Use C++98: [travis_qmake_gcc_cpp98](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98)
-
-## The branches
-
-### `master`
-
-Same as #5, as this is the fastest one by far.
-
-### `develop`
-
-Same as #5.
-
-### 1
-
-Use `apt-get` to install g++-5. Use g++-5 in .pro file.
-
-### 2
-
-Use `addons` to install g++-5. Use g++-5 in .pro file.
-
-### 3
-
-Use `addons` to install g++-5. Use g++ in .pro file.
-
-### 4
-
-Use `apt-get` to install g++-5. Use g++ in .pro file.
-
-### 5
-
-Use the g++ in Trusty. Use g++ in .pro file.

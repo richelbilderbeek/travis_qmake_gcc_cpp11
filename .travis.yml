@@ -1,6 +1,9 @@
 language: cpp
+dist: bionic
 compiler: gcc
-dist: trusty
+
+install: 
+  - sudo apt update -qq
 
 script: 
   - qmake

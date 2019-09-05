@@ -1,6 +1,12 @@
 language: cpp
 dist: bionic
 compiler: gcc
+<<<<<<< HEAD
+=======
+
+install: 
+  - sudo apt update -qq
+>>>>>>> develop
 
 script: 
   - qmake

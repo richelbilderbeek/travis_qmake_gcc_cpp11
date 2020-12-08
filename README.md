@@ -1,14 +1,11 @@
 # travis_qmake_gcc_cpp11
 
-Branch|[![Travis CI logo](TravisCI.png)](https://travis-ci.org)
----|---
-master|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11)
-develop|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11.svg?branch=develop)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11)
-1|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11.svg?branch=1)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11)
-2|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11.svg?branch=2)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11)
-3|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11.svg?branch=3)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11)
-4|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11.svg?branch=4)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11)
-5|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11.svg?branch=5)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11)
+Branch|[![Travis CI logo](pics/TravisCI.png)](https://travis-ci.org)
+---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------
+`master` |[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11)
+`develop`|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11.svg?branch=develop)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11)
+
+![GitHub Actions](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp11/workflows/check/badge.svg?branch=master)
 
 This GitHub is part of:
 
@@ -26,6 +23,8 @@ The goal of this project is to have a clean Travis CI build, with specs:
 More complex builds:
 
  * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14) Use C++14: [travis_qmake_gcc_cpp14](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14)
+ * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp17.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp17) Use C++17: [travis_qmake_gcc_cpp17](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp17)
+ * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp20.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp20) Use C++20: [travis_qmake_gcc_cpp20](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp20)
  * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11_bpp.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11_bpp) Add `Bio++`: [travis_qmake_gcc_cpp11_bpp](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11_bpp)
  * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11_boost.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11_boost) Add `Boost`: [travis_qmake_gcc_cpp11_boost](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11_boost)
  * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11_boost_test.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11_boost_test) Add `Boost.Test`: [travis_qmake_gcc_cpp11_boost_test](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11_boost_test)

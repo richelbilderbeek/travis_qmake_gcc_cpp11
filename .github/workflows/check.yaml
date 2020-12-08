@@ -20,5 +20,5 @@ jobs:
         run: make --silent
 
       - name: run
-        run: ./travis_qmake_gcc_cpp98
+        run: ./travis_qmake_gcc_cpp11
 
